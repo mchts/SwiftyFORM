@@ -15,17 +15,17 @@ class StaticTextAndAttributedTextViewController: FormViewController {
 		builder += SectionHeaderTitleFormItem(title: "Attributed Text")
 		builder += AttributedTextFormItem().title("Title 0").value("Value 0")
 		builder += AttributedTextFormItem()
-			.title("Title 1", [NSForegroundColorAttributeName: UIColor.gray as AnyObject])
+			.title("Title 1", [NSAttributedStringKey.foregroundColor: UIColor.gray as AnyObject])
 			.value("Value 1", [
-				NSBackgroundColorAttributeName: UIColor.black as AnyObject,
-				NSForegroundColorAttributeName: UIColor.white as AnyObject
+				NSAttributedStringKey.backgroundColor: UIColor.black as AnyObject,
+				NSAttributedStringKey.foregroundColor: UIColor.white as AnyObject
 				])
 		builder += AttributedTextFormItem()
 			.title("Orange 🍊", [
-				NSForegroundColorAttributeName: UIColor.orange as AnyObject,
-				NSFontAttributeName: UIFont.boldSystemFont(ofSize: 24) as AnyObject,
-				NSUnderlineStyleAttributeName: NSUnderlineStyle.styleSingle.rawValue as AnyObject
+				NSAttributedStringKey.foregroundColor: UIColor.orange as AnyObject,
+				NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 24) as AnyObject,
+				NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle.rawValue as AnyObject
 				])
-			.value("Heart ❤️", [NSForegroundColorAttributeName: UIColor.red as AnyObject])
+			.value("Heart ❤️", [NSAttributedStringKey.foregroundColor: UIColor.red as AnyObject])
 	}
 }

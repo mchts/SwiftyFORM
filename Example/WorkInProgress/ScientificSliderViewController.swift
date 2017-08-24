@@ -98,8 +98,8 @@ class ScientificSliderViewController: UIViewController {
 			}
 		}
 
-		let firstPart = NSAttributedString(string: fp, attributes: [NSForegroundColorAttributeName: UIColor.black])
-		let secondPart = NSAttributedString(string: sp, attributes: [NSForegroundColorAttributeName: UIColor.lightGray])
+		let firstPart = NSAttributedString(string: fp, attributes: [NSAttributedStringKey.foregroundColor: UIColor.black])
+		let secondPart = NSAttributedString(string: sp, attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray])
 
 		let text = NSMutableAttributedString()
 		text.append(firstPart)

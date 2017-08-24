@@ -15,7 +15,7 @@ public class AttributedTextFormItem: FormItem {
 	}
 
 	@discardableResult
-	public func title(_ title: String, _ attributes: [String: AnyObject]? = nil) -> Self {
+	public func title(_ title: String, _ attributes: [NSAttributedStringKey: Any]? = nil) -> Self {
 		self.title = NSAttributedString(string: title, attributes: attributes)
 		return self
 	}
@@ -43,7 +43,7 @@ public class AttributedTextFormItem: FormItem {
 	}
 
 	@discardableResult
-	public func value(_ value: String, _ attributes: [String: AnyObject]? = nil) -> Self {
+	public func value(_ value: String, _ attributes: [NSAttributedStringKey: Any]? = nil) -> Self {
 		self.value = NSAttributedString(string: value, attributes: attributes)
 		return self
 	}
