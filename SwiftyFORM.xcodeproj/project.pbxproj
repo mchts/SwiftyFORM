@@ -506,7 +506,7 @@
 					42D5DE6E1A38167400D5C368 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = 22DR89XVRF;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0910;
 					};
 				};
 			};
@@ -777,7 +777,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = neoneye.SwiftyFORM;
 				PRODUCT_NAME = SwiftyFORM;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -799,7 +799,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = neoneye.SwiftyFORM;
 				PRODUCT_NAME = SwiftyFORM;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -818,7 +818,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = neoneye.swiftyFORMTests;
 				PRODUCT_NAME = SwiftyFORMTests;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -830,7 +831,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = neoneye.swiftyFORMTests;
 				PRODUCT_NAME = SwiftyFORMTests;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
